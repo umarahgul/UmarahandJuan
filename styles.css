@@ -113,7 +113,20 @@ color: white;
     
 }
 
-.contact-us {
+.contact-button {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-button:hover {
+    transform: translateY(-5px);
+  }
 
-    color;
-}
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    color: white;
+  }
+
