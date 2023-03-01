@@ -1,0 +1,103 @@
+.About{
+display:flex;
+flex-direction: row;
+justify-content: end;
+list-style: none;
+gap:10px;
+background-color: red;
+height:80px;
+padding:5px;
+font-size: 50px;
+margin-bottom: 0 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-headings{
+
+    height: 600px;
+    background-color:rgb(32, 32, 47);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h1{
+    font-size:50px;
+    color:aliceblue;
+}
+.red-font{
+    font-size:50px;
+    color:red;
+    margin:0;
+}
+.projects-section{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(69, 69, 183);
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 800px; 
+
+
+
+}
+
+.project-heading{
+
+    color:aliceblue;
+    font-weight:30;
+    font-size: 40px;
+}
+
+.gray-part{
+    background-color: rgb(92, 92, 89);
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+}
+.border{
+width:100%;
+    border:2px solid red;
+    margin:0;
+}
+
+.work{
+color:aliceblue;
+font-size: 50px;
+font-weight: 100;
+margin:0;
+}
+.coffee{
+    color:aliceblue;
+    font-size:50px;
+    font-style: oblique;
+    margin:0;
+   
+}
+.joke{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+
+.footer{
+display:flex;
+flex-direction: row;
+gap:100px;
+}
