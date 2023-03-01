@@ -50,8 +50,8 @@ h1{
  width: 800px; 
 
 
-
 }
+
 
 .project-heading{
 
@@ -100,4 +100,20 @@ margin:0;
 display:flex;
 flex-direction: row;
 gap:100px;
+}
+
+.under-image {
+
+text-align: center;
+color: white;
+}
+
+.project-image {
+    margin-right: 30px;
+    
+}
+
+.contact-us {
+
+    color;
 }
